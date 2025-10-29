@@ -1,0 +1,9 @@
+fastapi[standard]==0.120.2
+pydantic==2.12.3
+uvicorn==0.38.0
+python-dotenv==1.2.1
+
+# Testing dependencies
+pytest==8.3.4
+pytest-cov==6.0.0
+httpx==0.28.1
