@@ -9,6 +9,9 @@ class Settings(BaseSettings):
     api_name: str = "Diamond Insights API"
     api_version: str = "1.0.0"
     
+    # Database Configuration
+    database_url: str = "postgresql+psycopg://user:password@localhost:5432/dbname"
+    
     # External API Settings - these assigned values are fallbacks
     api_sports_url: str = "https://api.example.com"
     api_sports_key: str = "your-api-key-here"
